@@ -1,0 +1,38 @@
+.winner{
+    border:dashed;
+    text-decoration:underline;
+}
+.loser{
+    border:solid;
+}
+.artist{
+    font-family: 'Bungee Shade', cursive;
+}
+.movie{
+    font-family: 'Ewert', cursive;
+}
+.tvshow{
+    font-family: 'Creepster', cursive;
+}
+.superhero{
+    font-family: 'Fruktur', cursive;
+}
+body{
+    text-align:center;
+    background:url(https://images-na.ssl-images-amazon.com/images/I/51vNXct8h4L._SY450_.jpg);
+    color:purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height:250px;
+    width:250px;
+    cursor:pointer;
+    border-radius:50%;
+    border:solid 5px;
+}
+img:hover{
+    transform:scale(1.1);
+}
+
+    
